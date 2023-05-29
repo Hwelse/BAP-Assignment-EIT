@@ -1,3 +1,3 @@
 # BAP-Assignment-EIT
-Droid-Gustav (Gustav),
+Droid-Gustav (Gustav)
 Hwelse (Jay)
