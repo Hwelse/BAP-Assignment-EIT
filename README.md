@@ -26,5 +26,5 @@ Woocommerce is being considered for its functionality relating to e-commerce
 - <s> wk2: have CRUD Functionality </s> 
 - <s> wk3: pick plugins </s> 
 - <s> wk4: Add Queries to Plugin </s>
-- wk5: Finalise the design of the site
+- <s>wk5: Finalise the design of the site</s>
 - wk6: Fix remaining bugs
