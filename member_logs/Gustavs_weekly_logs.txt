@@ -1,0 +1,23 @@
+Logs
+
+wk1: I started looking at the CRUD functionality for WordPress plugin. As I was making the plugin, the issue I ran into was that the table was not being made in the database. 
+This prevented me from testing the rest of the CRUD functionality but I was able to get the menu to work. 
+I am not able to figure out why the issue is occurring as the SQL code works in PHPadmin so I will try to isolate the code and work on it next week.
+
+wk2: I first started testing the CRUD commands by making the table in PHPadmin and using the plugin to modify the records inside the table. 
+Once I got the commands, I started working on getting the table to appear. I attempted copying the table from the example code but it did not work and I wrote the code manually and it also did not work.
+ The only way I was able to have the table appear is to make a new plugin and re-write the code in there until it worked. 
+ This must have been because of a conflict that prevented the table from being created but now that it has I can start making the table to be more precise for the business context
+ 
+wk3: After our class, I remembered John talking about how we can use plugins to compensate for functionality that our plugin could not meet. I looked online for plugins that could be used to meet the business requirements of the assignment
+ and I came across hotel booking lite which has all the functionality I would need in order to make a property-letting site. I currently could not decide between WP Go Maps (formerly WP Google Maps) and WP Maps as the first option is better if you use the premium version
+ and WP Maps is free but it requires more work to be equal to WP GO Maps.
+ 
+ wk4: As the presentation was getting closer, I decided to prioritize what the end product of the plugin would look like. I did this by making accommodations and maps in wordpress and using Elementor to place these parts on a page. Once I have finished getting the visuals for the website, 
+ I worked on designing the queries that the plugin should be able to produce. The tables that I made focused on linking the two tables together but as I looked into the viability of making these queries, I found out that I would need to find a plugin to track the number of visits to an accommodation and to make a custom post type in order to link the two plugins together.
+Next week I will start adding in the new functionality.
+ 
+ wk5:After the presentation I looked into the plugins I brought up last week. Unfortunately, I was not able to find a plugin that allowed me to find out when how often an accommodation was clicked as it appeared to be only for posts. The WP Maps did not appear to be a viable option as it did not add any new tables to the WordPress tables
+ so that means I cannot use it for the plugin as it does not allow me to us the CRUD functionality I learned at the start of this course. This means for the rest of this project I will have to use WP Go Maps as it does make tables for me to use CRUD with.
+ 
+ wk6: The hotel booking lite plugin had a major flaw as the tables that it did make were not ones that stored the accommodation type or the amenities. So unless I find documentation that allows me to get access to this information, I cannot use custom posts to link the accommodation with WP Go Maps. If I can get it to work I can make the plugin generate a custom post which will generate the information from hotel booking and the Google map linked to it using their respective plugins.
